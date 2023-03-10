@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon Icon Css -->
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <!-- Font Css -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/ionicons.min.css" type="text/css" rel="stylesheet">
+    <!-- Owl Css -->
+    <link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" type="text/css" rel="stylesheet">
+    <!-- Magnific Popup Css -->
+    <link href="css/magnific-popup.css" type="text/css" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <!-- Price Filter Css -->
+    <link href="css/jquery-ui.css" type="text/css" rel="stylesheet">
+    <!-- Scrollbar Css -->
+    <link href="css/mCustomScrollbar.min.css" type="text/css" rel="stylesheet">
+    <!-- Select2 Css -->
+    <link href="css/select2.min.css" type="text/css" rel="stylesheet">
+    <!-- main css -->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/responsive.css" type="text/css" rel="stylesheet">
+    <title>ATZ Shop - Online Shopping Store HTML Template</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106310707-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-106310707-1', {
+            'anonymize_ip': true
+        });
+    </script>
+
+    <!-- Start of StatCounter Code -->
+    <script>
+        <!--
+        var sc_project = 11921154;
+        var sc_security = "6c07f98b";
+        var scJsHost = (("https:" == document.location.protocol) ?
+            "https://secure." : "http://www.");
+        //-->
+
+        document.write("<sc" + "ript src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <!-- End of StatCounter Code -->
+
+</head>
+
+<body>
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loading_wrap">
+            <img src="image/loader_logo.png" alt="logo">
+        </div>
+    </div>
+    <!-- LOADER -->
+
+    <!-- Start Header Section -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="header_list text-md-left text-center">
+                            <li><a href="tel:+ 00 123 456 789"><i class="fa fa-phone"></i>+ 00 123 456 789</a></li>
+                            <li><a href="mailto:info@gmail.com"><i class="fa fa-envelope-o"></i>info@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="header_list text-md-right text-center">
+                            <li><a href="#test-popup1" class="open-popup-link">Login</a>
+                                <div id="test-popup1" class="white-popup lr-popup mfp-hide text-center">
+                                    <h4>Login</h4>
+                                    <form class="subscribe-popup-form" method="post" action="#">
+                                        <input name="email" required type="email" placeholder="Enter Your Email">
+                                        <input name="password" required type="password" placeholder="Enter Your Password">
+                                        <div class="form-check text-left">
+                                            <label>Remember me
+                                            <input class="defult-check" type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                            <a href="#" class="forgot-password float-right">Forgot Password ?</a>
+                                        </div>
+                                        <button class="btn btn-primary" title="Login" type="button">Login</button>
+                                    </form>
+                                    <h6>Don't have an account?</h6>
+                                    <a href="#test-popup2" class="sign-up open-popup-link">Click here to Sign up</a>
+                                </div>
+                                <div id="test-popup2" class="white-popup lr-popup mfp-hide">
+                                    <h4>Registration</h4>
+                                    <form class="subscribe-popup-form" method="post" action="#">
+                                        <input name="input" required type="input" placeholder="Enter Your name">
+                                        <input name="email" required type="email" placeholder="Enter Your Email">
+                                        <input name="password" required type="password" placeholder="Enter Your Password">
+                                        <input name="password" required type="password" placeholder="Confirmation Password">
+                                        <div class="form-check">
+                                            <label>I accept the terms and conditions
+                                            <input class="defult-check" type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        </div>
+                                        <button class="btn btn-primary" title="Subscribe" type="button">Register</button>
+                                    </form>
+                                </div>
+                            </li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="my-account.html">My Account</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mdl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hm-inner d-sm-flex align-items-center justify-content-between">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+                            </div>
+                            <form class="header-form">
+                                <input class="search-box" placeholder="Search Product..." required value="" type="search">
+                                <button type="submit">Search</button>
+                            </form>
+                            <div class="header-right">
+                                <div class="header-cart">
+                                    <a href="#">
+                                        <div class="cart-icon">
+                                            <img src="image/cart-icon.png" alt="cart-icon">
+                                            <span>02</span>
+                                        </div>
+                                        $237.00<i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <div class="cart-box">
+                                        <div class="cart-info">
+                                            <div class="cart-prodect d-flex">
+                                                <div class="cart-img">
+                                                    <img src="image/cart-img-1.png" alt="cart-img">
+                                                </div>
+                                                <div class="cart-product">
+                                                    <a href="#">Ornare sed consequat</a>
+                                                    <p>$ 81.00</p>
+                                                </div>
+                                                <a href="#" class="close-icon d-flex align-items-center"><i class="ion-close"></i></a>
+                                            </div>
+                                            <div class="cart-prodect d-flex">
+                                                <div class="cart-img">
+                                                    <img src="image/cart-img-2.png" alt="cart-img">
+                                                </div>
+                                                <div class="cart-product">
+                                                    <a href="#">Pellentesque posuere</a>
+                                                    <p>$ 80.00</p>
+                                                </div>
+                                                <a href="#" class="close-icon d-flex align-items-center"><i class="ion-close"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="price-prodect d-flex align-items-center justify-content-between">
+                                            <p class="total">total</p>
+                                            <p class="total-price">$ 161.00</p>
+                                        </div>
+                                        <div class="cart-btn">
+                                            <a href="cart.html" class="btn btn-primary">View Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-lg-none mm_icon">
+                                    <div class="form-captions" id="search">
+                                        <button type="submit" class="submit-btn-2"><i class="fa fa-search"></i></button>
+                                    </div>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-btm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="header-logo">
+                                <a href="#"><img src="image/logo.png" alt="logo"></a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                        <div class="sub-menu dropdown-menu">
+                                            <ul class="all-menu">
+                                                <li><a href="index.html">Home Page 1</a></li>
+                                                <li><a href="index-2.html">Home Page 2</a></li>
+                                                <li><a href="index-3.html">Home Page 3</a></li>
+                                                <li><a href="index-4.html">Home Page 4</a></li>
+                                                <li><a href="index-5.html">Home Page 5</a></li>
+                                                <li><a href="index-6.html">Home Page 6</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-us.html">About us</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="nav-link dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                        <div class="sub-menu dropdown-menu">
+                                            <ul class="all-menu">
+                                                <li><a href="error-404.html">404 Page</a></li>
+                                                <li><a href="faq.html">Faq</a></li>
+                                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="active">
+                                        <a class="nav-link dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                        <div class="sub-menu mega-menu dropdown-menu">
+                                            <ul class="d-lg-flex">
+                                                <li class="submenu-links dropdown col-lg-3">
+                                                    <a href="#" class="menu-title dropdown-toggler" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop Pages<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                                    <ul class="all-menu dropdown-menu">
+                                                        <li><a href="shop-list.html">Shop List View</a></li>
+                                                        <li><a href="shop-grid.html">Shop Grid View</a></li>
+                                                        <li><a href="shop-three-columns.html">shop 3 Column</a></li>
+                                                        <li><a href="shop-four-columns.html">shop 4 Column</a></li>
+                                                        <li><a href="shop-left-sidebar.html">shop Left Sidebar</a></li>
+                                                        <li><a href="shop-right-sidebar.html">shop Right Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="submenu-links dropdown col-lg-3">
+                                                    <a href="#" class="menu-title dropdown-toggler" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product Detail<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                                    <ul class="all-menu dropdown-menu">
+                                                        <li><a href="product-detail.html">Product Default</a></li>
+                                                        <li><a href="product-detail-left-sidebar.html">Product Left Sidebar</a></li>
+                                                        <li><a href="product-detail-right-sidebar.html">Product Right Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="submenu-links dropdown col-lg-3">
+                                                    <a href="#" class="menu-title dropdown-toggler" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extra<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                                    <ul class="all-menu dropdown-menu">
+                                                        <li class="active"><a href="cart.html">Cart</a></li>
+                                                        <li><a href="checkout.html">Checkout</a></li>
+                                                        <li><a href="compare.html">Compare</a></li>
+                                                        <li><a href="my-account.html">My Account</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="submenu-img col-lg-3"><a href="#"><img src="image/header-banner.jpg" alt="banner"></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="nav-link dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                        <div class="sub-menu dropdown-menu">
+                                            <ul class="all-menu">
+                                                <li><a class="dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog Layout<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                                    <div class="sub-menu dropdown-menu">
+                                                        <ul class="all-menu">
+                                                            <li><a href="blog-standard-fullwidth.html">Blog Standard Fullwidth</a></li>
+                                                            <li><a href="blog-standard-left-sidebar.html">Blog Standard Left Sidebar</a></li>
+                                                            <li><a href="blog-standard-right-sidebar.html">Blog Standard Right Sidebar</a></li>
+                                                            <li><a href="blog-three-columns.html">Blog 3 Columns </a></li>
+                                                            <li><a href="blog-four-columns.html">Blog 4 Columns</a></li>
+                                                            <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+                                                            <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a class="dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog Masonry<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                                    <div class="sub-menu dropdown-menu">
+                                                        <ul class="all-menu">
+                                                            <li><a href="blog-masonry-three-columns.html">Masonry 3 Columns</a></li>
+                                                            <li><a href="blog-masonry-four-columns.html">Masonry 4 Columns</a></li>
+                                                            <li><a href="blog-masonry-left-sidebar.html">Masonry Left Sidebar </a></li>
+                                                            <li><a href="blog-masonry-right-sidebar.html">Masonry Right Sidebar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a class="dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog List<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                                    <div class="sub-menu dropdown-menu">
+                                                        <ul class="all-menu">
+                                                            <li><a href="blog-list-left-sidebar.html">List Left Sidebar </a></li>
+                                                            <li><a href="blog-list-right-sidebar.html">List Right Sidebar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a class="dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog Single<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                                    <div class="sub-menu dropdown-menu">
+                                                        <ul class="all-menu">
+                                                            <li><a href="blog-detail.html">Default</a></li>
+                                                            <li><a href="blog-detail-left-sidebar.html">Left Sidebar</a></li>
+                                                            <li><a href="blog-detail-right-sidebar.html">Right Sidebar</a></li>
+                                                            <li><a href="blog-detail-slider.html">Slider Post</a></li>
+                                                            <li><a href="blog-detail-video.html">Video post</a></li>
+                                                            <li><a href="blog-detail-audio.html">Audio Post</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Breadcrumbs Section -->
+    <section class="breadcrumbs-section background_bg" data-img-src="image/cart-breadcrumbs-img.jpg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="page_title text-center">
+                        <h1>my cart</h1>
+                        <ul class="breadcrumb justify-content-center">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><span>cart</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header Section -->
+
+
+
+    <!-- Start Cart Section -->
+    <section class="cart-section pt_large">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cart-table table-responsive">
+                        <table class="table table-bordered text-center">
+                            <thead>
+                                <tr class="row-1">
+                                    <th class="row-title">
+                                        <p>Item</p>
+                                    </th>
+                                    <th class="row-title">
+                                        <p>Product Name</p>
+                                    </th>
+                                    <th class="row-title">
+                                        <p>Price</p>
+                                    </th>
+                                    <th class="row-title">
+                                        <p>Quantity</p>
+                                    </th>
+                                    <th class="row-title">
+                                        <p>Subtotal</p>
+                                    </th>
+                                    <th class="row-title">
+                                        <p></p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="row-2">
+                                    <td class="row-close close-1" data-title="product-remove"><a href="#"><i class="ion-close-circled"></i></a></td>
+                                    <td class="row-img"><img src="image/cart-inner-img-1.jpg" alt="cart-img"></td>
+                                    <td class="product-name" data-title="Product"><a href="#">Variable product 001</a></td>
+                                    <td class="product-price" data-title="Price">
+                                        <p>$ 78.00</p>
+                                    </td>
+                                    <td class="product-quantity" data-title="Quantity">
+                                        <div class="quantity_filter">
+                                            <input type="button" value="-" class="minus">
+                                            <input class="quantity-number qty" type="text" value="2" min="1" max="10">
+                                            <input type="button" value="+" class="plus">
+                                        </div>
+                                    </td>
+                                    <td class="product-total" data-title="Subprice">
+                                        <p>$ 156.00</p>
+                                    </td>
+                                    <td class="row-close close-2" data-title="product-remove"><a href="#"><i class="ion-close-circled"></i></a></td>
+                                </tr>
+                                <tr class="row-3">
+                                    <td class="row-close close-1" data-title="product-remove"><a href="#"><i class="ion-close-circled"></i></a></td>
+                                    <td class="row-img"><img src="image/cart-inner-img-2.jpg" alt="cart-img"></td>
+                                    <td class="product-name" data-title="Product"><a href="#">Ornare sed consequat</a></td>
+                                    <td class="product-price" data-title="Price">
+                                        <p>$ 81.00</p>
+                                    </td>
+                                    <td class="product-quantity" data-title="Quantity">
+                                        <div class="quantity_filter">
+                                            <input type="button" value="-" class="minus">
+                                            <input class="quantity-number qty" type="text" value="1" min="1" max="10">
+                                            <input type="button" value="+" class="plus">
+                                        </div>
+                                    </td>
+                                    <td class="product-total" data-title="Subprice">
+                                        <p>$ 81.00</p>
+                                    </td>
+                                    <td class="row-close close-2" data-title="product-remove"><a href="#"><i class="ion-close-circled"></i></a></td>
+                                </tr>
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="12">
+                                        <ul class="table-btn">
+                                            <li><a href="shop.html" class="btn btn-secondary"><i class="fa fa-chevron-left"></i>Continue Shopping</a></li>
+                                            <li><a href="#" class="btn btn-primary"><i class="fa fa-refresh"></i>Update cart</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Cart Section -->
+
+
+    <!-- Start Cart Box Section -->
+    <section class="cart-box-section pb_large">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-md-6">
+                    <div class="cart-inner-box box-1 text-center">
+                        <div class="ci-title">
+                            <h6>Promotional code</h6>
+                        </div>
+                        <div class="ci-caption">
+                            <p>Enter Your Coupon Code If you have one</p>
+                            <form>
+                                <input required="" class="form-control" type="text" placeholder="Coupon Code">
+                                <button class="btn btn-secondary" type="submit">Apply Coupon Code</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cart-inner-box box-2 text-center">
+                        <div class="ci-title">
+                            <h6>Cart Total</h6>
+                        </div>
+                        <div class="ci-caption">
+                            <ul>
+                                <li>Subtotal <span>$237.00</span></li>
+                                <li>Total <span>$237.00</span></li>
+
+                            </ul>
+                        </div>
+                        <div class="ci-btn">
+                            <a href="checkout.html" class="btn btn-primary btn-block rounded-0">Proceed to Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Cart Box Section -->
+
+    <!-- Start Footer Section -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-box box-1">
+                            <h6 class="fb-title">ABOUT US</h6>
+                            <div class="fb-iner">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 order-md-last">
+                        <div class="footer-box box-4">
+                            <h6 class="fb-title">CONTACT INFO</h6>
+                            <div class="fb-iner">
+                                <ul>
+                                    <li><i class="ion-ios-location-outline"></i>
+                                        <p>c/o Giunti International Division Via G.B. Pirelli, 30 20124 Milan</p>
+                                    </li>
+                                    <li><i class="ion-ios-telephone-outline"></i>
+                                        <p>+025 2155 3255</p>
+                                    </li>
+                                    <li><i class="ion-ios-email-outline"></i><a href="#">info@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="footer-box box-2">
+                            <h6 class="fb-title">CATEGORIES</h6>
+                            <div class="fb-iner">
+                                <ul class="footer-links">
+                                    <li><a href="#">Fashion Sneakers</a></li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Outdoor Shop</a></li>
+                                    <li><a href="#">Pants</a></li>
+                                    <li><a href="#">Shirts & Tops</a></li>
+                                    <li><a href="#">Swim Shop</a></li>
+                                    <li><a href="#">Swimwear</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="footer-box box-3">
+                            <h6 class="fb-title">MY ACCOUNT</h6>
+                            <div class="fb-iner">
+                                <ul class="footer-links">
+                                    <li><a href="#">Orders</a></li>
+                                    <li><a href="#">Compare</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="#">Log In</a></li>
+                                    <li><a href="#">Register</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-btm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>Copyright © 2018. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-social text-md-right">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Home Popup Section -->
+    <div class="modal fade bd-example-modal-lg main-popup" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="newsletter-pop-up d-flex">
+                        <div class="popup-img">
+                            <img src="image/1_popup-img.jpg" alt="popup-img">
+                        </div>
+                        <div class="popup-form text-center">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="ion-close-round"></i></span>
+                        </button>
+                            <div class="popup-logo">
+                                <img src="image/logo.png" alt="logo">
+                            </div>
+                            <div class="popup-text">
+                                <p>Join us Now</p>
+                                <h6>And get hot news about the theme</h6>
+                            </div>
+                            <form class="subscribe-popup-form" method="post" action="#">
+                                <input name="email" required type="email" placeholder="Enter Your Email">
+                                <button class="btn btn-primary" title="Subscribe" type="submit">Subscribe</button>
+                            </form>
+                            <div class="form-check">
+                                <label>Don't show this popup again!
+                                <input class="defult-check" type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Screen Load Popup Section -->
+
+    <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a>
+
+    <!-- Jquery js -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!-- popper.min js -->
+    <script src="js/popper.min.js" type="text/javascript"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Magnific Popup js -->
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <!-- Map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7TypZFTl4Z3gVtikNOdGSfNTpnmq-ahQ" type="text/javascript"></script>
+    <!-- Owl js -->
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <!-- Countdown js -->
+    <script src="js/countdown.min.js" type="text/jscript"></script>
+    <!-- Counter js -->
+    <script src="js/jquery.countup.js" type="text/javascript"></script>
+    <!-- waypoint js -->
+    <script src="js/waypoint.js" type="text/javascript"></script>
+    <!-- Select2 js -->
+    <script src="js/select2.min.js" type="text/javascript"></script>
+    <!-- Price Slider js -->
+    <script src="js/jquery-price-slider.js" type="text/javascript"></script>
+    <!-- jquery.elevatezoom js -->
+    <script src='js/jquery.elevatezoom.js' type="text/javascript"></script>
+    <!-- imagesloaded.pkgd.min js -->
+    <script src='js/imagesloaded.pkgd.min.js' type="text/javascript"></script>
+    <!-- isotope.min js -->
+    <script src='js/isotope.min.js' type="text/javascript"></script>
+    <!-- jquery.fitvids js -->
+    <script src='js/jquery.fitvids.js' type="text/javascript"></script>
+    <!-- mCustomScrollbar.concat.min js -->
+    <script src="js/mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+    <!-- Custom css -->
+    <script src="js/custom.js" type="text/javascript"></script>
+</body>
+
+</html>
